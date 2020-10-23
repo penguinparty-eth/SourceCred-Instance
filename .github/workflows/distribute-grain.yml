@@ -38,7 +38,7 @@ jobs:
       - name: Set environment variables
         id: pr_details
         run: |
-          echo ::set-env name=PULL_REQUEST_TITLE::"Scheduled grain distribution for week ending $(date +"%B %dth, %Y")"
+          echo ::set-env name=PULL_REQUEST_TITLE::"Scheduled fish distribution for week ending $(date +"%B %dth, %Y")"
           description="This PR was auto-generated on $(date +%d-%m-%Y) \
             to add the latest grain distribution to our instance.
 
